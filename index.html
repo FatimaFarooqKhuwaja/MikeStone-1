@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume-Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form id="main">
+    <h1>Static Resume Builder by Fatima</h1>
+<fieldset>
+ <legend class="mainHeading">Personal Details</legend>
+    <fieldset>
+       <legend class="Heading" required>Name</legend>
+       <label for="firstName">First Name</label>
+       <input type="text" name="first name" >
+       <br>
+       <br>
+       
+       <label for="CNIC" type="number">CNIC/B-form</label>
+       <input type="text" name="first name" >
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend class="Heading">Contact</legend>
+       <label>Email</label>
+       <input type="email" name="email">
+       <br>
+       <br>
+       <label>Phone</label>
+       <input type="number" name="Phone">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend class="Heading" for="Profile Image">Profile Image</legend>
+       <input type="file" name="dp">
+    </fieldset>
+</fieldset>
+   
+<br>
+
+<fieldset>
+        <legend  class="mainHeading">Education</legend>
+        <textarea name="experience" id="Education"></textarea>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend  class="mainHeading">Skills</legend>
+        <textarea name="experience" id="Skills" ></textarea>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend  class="mainHeading">Experience</legend>
+        <textarea name="experience" id="Experience" ></textarea>
+    </fieldset>
+
+<button>Generate Resume</button>
+</form>
+</body>
+
+</html>
